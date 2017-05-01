@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ImaseLib">
+      <UniqueIdentifier>{e362d905-15b5-4317-91e0-94bf38276c63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Font">
+      <UniqueIdentifier>{2e505f80-a828-4c6b-882e-2feefc5fae20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="property">
+      <UniqueIdentifier>{9bcbddd1-556e-41f2-af1a-55b678cfe964}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ImaseLib\FPSTimer.cpp">
+      <Filter>ImaseLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Direct3D.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectXTK.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Grid.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Line.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugCamera.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj3D.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionNode.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="LandShapeData.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="LandShape.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ImaseLib\FPSTimer.h">
+      <Filter>ImaseLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Direct3D.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectXTK.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Grid.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Line.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugCamera.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj3D.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Enmey.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionNode.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="LandShapeData.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="LandShape.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="myfile.spritefont">
+      <Filter>Font</Filter>
+    </None>
+    <None Include="DebugBase.props">
+      <Filter>property</Filter>
+    </None>
+    <None Include="ReleaseBase.props">
+      <Filter>property</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <MeshContentTask Include="Resources\model\Ground.FBX">
+      <Filter>リソース ファイル</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Resources\model\kyuu.FBX">
+      <Filter>リソース ファイル</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Resources\model\SkyDorm.FBX">
+      <Filter>リソース ファイル</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Resources\model\Spehere.FBX">
+      <Filter>リソース ファイル</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Resources\model\Spehere2.FBX">
+      <Filter>リソース ファイル</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Resources\model\ground2002.FBX">
+      <Filter>リソース ファイル</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Resources\model\tankhou1.FBX">
+      <Filter>リソース ファイル</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Resources\model\tankhou2.FBX">
+      <Filter>リソース ファイル</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Resources\model\tankdoutai.FBX">
+      <Filter>リソース ファイル</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Resources\model\houdaiiii.FBX">
+      <Filter>リソース ファイル</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Resources\model\zentai.FBX">
+      <Filter>リソース ファイル</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Resources\model\hitcapsule.FBX">
+      <Filter>リソース ファイル</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Resources\model\hitspehere.FBX">
+      <Filter>リソース ファイル</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Resources\model\zirai.FBX">
+      <Filter>リソース ファイル</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Resources\model\sander.FBX">
+      <Filter>リソース ファイル</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Resources\LandShape\cubebox2.FBX">
+      <Filter>リソース ファイル</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Resources\model\cub.FBX">
+      <Filter>リソース ファイル</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Resources\LandShape\yuka.FBX">
+      <Filter>リソース ファイル</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Resources\LandShape\goal.FBX">
+      <Filter>リソース ファイル</Filter>
+    </MeshContentTask>
+  </ItemGroup>
+</Project>
